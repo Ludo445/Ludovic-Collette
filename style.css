@@ -1,0 +1,148 @@
+.titre {
+    background-color: black;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+.section {
+    display: flex;
+
+    gap:8px;
+    padding: 8px;
+    height: 700px;
+    
+}
+
+.colonne {
+    flex: 1;
+    background-color: rgb(197, 224, 240);
+    border: 1px solid black;
+padding:8px;
+flex-wrap: wrap;
+
+}
+
+.large {
+    flex:3;
+background-color: white;
+}
+
+.colonne p {
+    text-align: justify;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.image {
+    width: 100%;
+}
+
+.imageBlock {
+    width:100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.TitreP{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.TitreS {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    
+}
+.small{
+    
+    font-size: 15px;
+}
+@media screen and (max-width: 900px) {
+    .titre {
+        background-color: black;
+        width: 100%;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 34px;
+        font-weight: bold;
+        text-align: center;
+        padding: 8px;
+        color: white;
+    }
+    .section {
+        display: flex;
+       width: 100%;
+        gap:8px;
+        padding: 8px;
+        height: 1150px;
+        flex-direction: column;
+    }
+    
+    .colonne {
+        flex: 1;
+        background-color: rgb(183, 216, 236);
+        border: 1px solid black;
+        text-align: justify;
+        
+
+        
+    }
+    
+    .large {
+        flex:3;
+    background-color: white;
+    max-height: 700px;
+    }
+    
+    .colonne p {
+        text-align: justify;
+        margin-bottom: 12px;
+        width: 100%;
+
+
+    }
+    .image {
+        width: 50%;
+       float:right;
+   padding:8px;
+    }
+    
+    .imageBlock {
+   float: right;
+        width:50%;
+        height: 100px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+    .TitreP{
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: left;
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+    .TitreS {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        font-family:Arial, Helvetica, sans-serif;
+        color: gray;
+        
+    }
+    .small{
+        
+        font-size: 15px;
+
+    }
+}
